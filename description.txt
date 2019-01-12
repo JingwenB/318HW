@@ -1,0 +1,16 @@
+Problem 6. write a program in python that will do the following.
+(a) Write a function birthday(n) that:
+(a) Generates a list containing n numbers uniformly distributed on f1; 2; : : : ; 365g
+(think of this as the list of birthdays of n people.
+(b) Returns 1 (or True) if there is at least one pair of people with coinciding
+birthdays (a \match") and 0 (or False) otherwise.
+
+(b) For each n, from 1 to 70, run the function birthday(n) 1000 times, and compute
+the proportion X(n) of the 1000 times in which there was a match.
+(c) Let Y (n) be the actual probability of a match:
+Y (n) = 1 􀀀
+365  364    (365 􀀀 n + 1)
+365n :
+Generate a joint plot of X(n) and Y (n) for n 2 [1; 70].
+(d) Repeat the steps above for Martians. (Hint: The Martian year has 669 Martian
+days.)
